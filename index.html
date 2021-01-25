@@ -9,10 +9,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-		
-		<script>
-			const IMAGE_PATH = "./image";
-		</script>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -24,29 +20,29 @@
 		
 		<div class="jumbotron">
 			<div class="container">
-				<h1>Portfolio</h1>
+				<h2>
+					안녕하세요. 프로그래머가 되고 싶은 문지웅입니다.
+					<br>
+					누구나, 어느 기기에서나 편하게 사용할 수 있는 프로그램을 만들고 싶습니다.
+				</h2>
 			</div>
 		</div>
 		
 		<div class="container">
-			<h4>
-				안녕하세요. 프로그래머가 되고 싶은 문지웅입니다.
-				<br>
-				누구나, 어느 기기에서나 편하게 사용할 수 있는 프로그램을 만들고 싶습니다.
-			</h4>
-			<br>
 			<div>
-				개인 프로젝트
-				<img src="${IMAGE_PATH}/cash.png" class="w-100 h-auto">
-					<a href="http://moonju.kro.kr/cash/">
-						cashbook 프로젝트(구조 : MVC, springboot)
-					</a>
+				<h4>
+					개인 프로젝트 cashbook 프로젝트(구조 : MVC, springboot)
+				</h4>
+				<a href="http://moonju.kro.kr/cash/" target="_blank">
+					<img src="./image/cash.png" class="w-100 h-auto">
+				</a>
 				<br>
-				팀 프로젝트
-				<img src="${IMAGE_PATH}/LMS.png" class="w-100 h-auto">
-					<a href="http://lms-y.kro.kr/lms/">
-						LMS 팀 프로젝트(구조 : MVC, springboot)
-					</a>
+				<h4>
+					팀 프로젝트 LMS 프로젝트(구조 : MVC, springboot)
+				</h4>
+				<a href="http://lms-y.kro.kr/lms/" target="_blank">
+					<img src="./image/LMS.png" class="w-100 h-auto">
+				</a>
 			</div>
 		</div>
 	</body>
